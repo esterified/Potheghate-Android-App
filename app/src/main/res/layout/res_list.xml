@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginTop="5dp"
+    android:id="@+id/cardRoot"
+    android:foreground="?android:attr/selectableItemBackground"
+    >
+<RelativeLayout
+    android:layout_width="match_parent" android:layout_height="match_parent"
+
+    >
+
+    <ImageView
+        android:id="@+id/imageViewList"
+        android:layout_width="138dp"
+        android:layout_height="101dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/shopimage" />
+    <TextView
+        android:id="@+id/listTitle"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_toEndOf="@id/imageViewList"
+
+        android:textColor="@color/content_text_color"/>
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/imageViewList"
+        android:layout_below="@id/listTitle"
+        android:orientation="horizontal"
+        android:layout_margin="2dp"
+        >
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We are serving "
+            android:textColor="@color/content_text_color"
+            />
+        <TextView
+            android:id="@+id/listItemcount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/content_text_color"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" items."
+            android:textColor="@color/content_text_color"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/listLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_toEndOf="@id/imageViewList"
+        android:layout_below="@id/linear"
+        android:textColor="@color/content_text_color"
+        />
+
+    <RelativeLayout
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/closed_banner"
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:background="#85000000"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/closed_banner_text"
+            android:textSize="18sp"
+            android:textAllCaps="true"
+            android:textColor="@color/p_red"
+            android:background="@color/white"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

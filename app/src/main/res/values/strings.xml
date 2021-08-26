@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">PotheGhate</string>
+    <string name="name">Email</string>
+    <string name="password">Password</string>
+    <string name="button">Log In</string>
+    <string name="no_of_incorrect_attempts">No of incorrect attempts</string>
+    <string name="regpassword">password</string>
+    <string name="regemail">Email</string>
+    <string name="regconfirm_password">confirm password</string>
+    <string name="regphone">phone</string>
+    <string name="regregister">Register</string>
+    <string name="regalready_registered_login">Already Registered? Login</string>
+    <string name="regname">Name</string>
+    <string name="regaddress">address</string>
+    <string name="register">New member? register</string>
+    <string name="log_out">Log out</string>
+    <string name="cart">cart</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="company_logo">Company LOgo</string>
+    <string name="shopimage">shopimage</string>
+    <string name="potheghate">PotheGhate</string>
+    <string name="restaurant">Food Delivery</string>
+    <string name="shops">Shop</string>
+    <string name="title_activity_checkout">checkoutActivity</string>
+    <string name="xApiKey">a8ba6c9e-a3cd-493d-b4e5-f3aebe813ee5</string>
+    <string name="API_KEY">AIzaSyDLn3lXIARzq4gn4ec0EZE3ZtWBmsE0kwM</string>
+    <string-array name="courier_service">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="variants_amp_addons"><![CDATA[Variants & Addons]]></string>
+    <string name="search">Search</string>
+    <string name="_1">1</string>
+    <string name="collapse_image">collapse image</string>
+    <string name="title_activity_phone_code_otp">phoneCodeOtp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="product">Product :-</string>
+    <string name="phone">phone</string>
+    <string name="from">From :-</string>
+    <string name="name1">Name:</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="dialog_message">We need additional info for conditional orders.</string>
+    <string name="dialog_title">Important Notice</string>
+    <string name="dialog_message_pass">This Order includes documents which you have submitted earlier.</string>
+    <string name="default_notification_channel_id">fcm_channel_id</string>
+
+
+</resources>

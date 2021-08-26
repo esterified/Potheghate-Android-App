@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item >
+        <shape>
+            <solid android:color="@color/p_red"/>
+            <padding android:top="20dp" android:left="60dp" android:right="60dp"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/banner_header">
+
+    </item>
+</layer-list>

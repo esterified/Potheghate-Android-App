@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    >
+<group android:checkableBehavior="single">
+    <item android:id="@+id/nav_admin"
+        android:icon="@drawable/ic_baseline_admin_panel_settings_24"
+        android:visible="false"
+        android:title="Admin"
+
+        />
+    <item android:id="@+id/NavProfile"
+        android:icon="@drawable/ic_baseline_person_pin_24"
+        android:title="Update Profile"
+
+        />
+
+    <item android:id="@+id/NavWallet"
+        android:icon="@drawable/ic_baseline_account_balance_wallet_24"
+
+        android:title="Wallet"
+
+        />
+    <item android:id="@+id/NavDoc"
+        android:icon="@drawable/ic_baseline_source_24"
+        android:title="Submit Documents"
+
+        />
+    <item android:id="@+id/NavLogout"
+        android:icon="@drawable/ic_baseline_logout_24"
+        android:title="Logout"
+
+        />
+
+
+
+
+</group>
+
+        <item android:title="Others" >
+            <menu >
+                <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_vouchers"
+            android:title="Vouchers"
+
+            />
+
+        <item android:id="@+id/nav_dingi"
+            android:title="DingiMap"
+
+            />
+        <item android:id="@+id/nav_contact_us"
+            android:title="Contact Us"
+
+            />
+        <item android:id="@+id/nav_33"
+            android:title="FAQ"
+
+            />
+        <item android:id="@+id/nav_44"
+            android:title="Privacy Policy"
+
+            />
+                </group>
+            </menu>
+        </item>
+
+
+
+</menu>

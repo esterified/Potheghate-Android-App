@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dingi_attributionErrorNoBrowser">Não está nenhum navegador de Internet instalado no dispositivo. Não é possível abrir a página web.</string>
+    <string name="dingi_attributionTelemetryMessage">Está a ajudar a tornar os mapas OpenStreetMap e Mapbox melhores contribuindo com dados de utilização tornados anónimos.</string>
+    <string name="dingi_attributionTelemetryNegative">Não concordo</string>
+    <string name="dingi_attributionTelemetryNeutral">Mais informações</string>
+    <string name="dingi_attributionTelemetryPositive">Concordo</string>
+    <string name="dingi_attributionTelemetryTitle">Torne os Mapas Mapbox Melhores</string>
+    <string name="dingi_attributionsDialogTitle">Mapas Mapbox SDK para Android</string>
+    <string name="dingi_attributionsIconContentDescription">Ícone de atribuição. Ativar para mostrar a janela de atribuição.</string>
+    <string name="dingi_compassContentDescription">Compasso do mapa. Ativar para virar o mapa para Norte.</string>
+    <string name="dingi_mapActionDescription">A mostrar um Mapa criado com Mapbox. Desloque arrastanto com 2 dedos. Zoom afastando ou aproximando os 2 dedos.</string>
+    <string name="dingi_myLocationViewContentDescription">Vista de localização. Isto mostra a sua localização no mapa.</string>
+    <string name="dingi_offline_error_region_definition_invalid">O OfflineRegionDefinition não cabe nos limites do mundo: %s</string>
+    <string name="dingi_telemetrySettings">Definições de Telemetria</string>
+</resources>

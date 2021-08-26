@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dingi_attributionTelemetryMessage">Помагаш OpenStreetMap и Mapbox картите да станат по-добри, като предоставяш анонимни данни за потребление.</string>
+    <string name="dingi_attributionTelemetryNegative">Не се съгласявам</string>
+    <string name="dingi_attributionTelemetryNeutral">Повече инфо</string>
+    <string name="dingi_attributionTelemetryPositive">Съгласявам се</string>
+    <string name="dingi_attributionTelemetryTitle">Направи Mapbox картите по-добри.</string>
+    <string name="dingi_attributionsDialogTitle">Mapbox Android SDK</string>
+    <string name="dingi_attributionsIconContentDescription">Иконка функции. Активирай, за да покажеш диалог функции.</string>
+    <string name="dingi_compassContentDescription">Компас на картата. Активирай, за да насочиш картата на север.</string>
+    <string name="dingi_mapActionDescription">Показва карта създадена с Mapbox. Скролни с два пръста. Мащабирай с два пръста.</string>
+    <string name="dingi_myLocationViewContentDescription">Изглед локация. Това показва местоположението ти на картата.</string>
+    <string name="dingi_offline_error_region_definition_invalid">Предоставените OfflineRegionDefinition не пасват в границите на света: %s</string>
+</resources>

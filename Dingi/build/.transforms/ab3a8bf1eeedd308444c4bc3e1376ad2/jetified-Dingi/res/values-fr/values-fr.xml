@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dingi_attributionErrorNoBrowser">Aucun navigateur web installé sur l’appareil, impossible d’ouvrir une page web.</string>
+    <string name="dingi_attributionTelemetryMessage">Vous aidez à améliorer les cartes OpenStreetMap et Mapbox en contribuant des données d\'utilisation anonymes.</string>
+    <string name="dingi_attributionTelemetryNegative">Pas d’accord</string>
+    <string name="dingi_attributionTelemetryNeutral">Plus d’informations</string>
+    <string name="dingi_attributionTelemetryPositive">D’accord</string>
+    <string name="dingi_attributionTelemetryTitle">Faire de meilleures cartes Mapbox</string>
+    <string name="dingi_attributionsDialogTitle">SDK Mapbox Maps pour Android</string>
+    <string name="dingi_attributionsIconContentDescription">Icône d’attribution. Activer pour afficher le dialogue d’attribution.</string>
+    <string name="dingi_compassContentDescription">Boussole. Activer pour rétablir l’orientation de la carte vers le nord.</string>
+    <string name="dingi_mapActionDescription">Affichage d’une carte créée avec Mapbox. Faites la glisser en traînant deux doigts. Zoomez ou dézoomez en écartant ou rapprochant deux doigts.</string>
+    <string name="dingi_myLocationViewContentDescription">Vue de géolocalisation. Ceci affiche votre localisation sur la carte.</string>
+    <string name="dingi_offline_error_region_definition_invalid">Le cadre OfflineRegionDefinition pour définir la région de navigation ne tient pas dans les limites du monde : %s</string>
+    <string name="dingi_telemetrySettings">Paramètres de télémétrie</string>
+</resources>

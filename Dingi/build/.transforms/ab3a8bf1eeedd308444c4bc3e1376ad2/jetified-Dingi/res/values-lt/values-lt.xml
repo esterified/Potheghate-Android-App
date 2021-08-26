@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dingi_attributionTelemetryMessage">Jūs padedate padaryti OpenStreetMap ir Mapbox žemėlapius geresniais dalindamiesi anoniminiais naudojimosi duomenimis.</string>
+    <string name="dingi_attributionTelemetryNegative">Nesutikti</string>
+    <string name="dingi_attributionTelemetryNeutral">Daugiau informacijos</string>
+    <string name="dingi_attributionTelemetryPositive">Sutikti</string>
+    <string name="dingi_attributionTelemetryTitle">Prisidėk prie Mapbox žemėlapių tobulinimo</string>
+    <string name="dingi_attributionsDialogTitle">Mapbox Android SDK</string>
+    <string name="dingi_attributionsIconContentDescription">Įnašo ikona. Paspausk norėdamas pamatyti dialogą su detalėmis</string>
+    <string name="dingi_compassContentDescription">Žemėlapio kompasas. Spustelk, kad atstatytum žemėlapio pasukimą į šiaurę.</string>
+    <string name="dingi_mapActionDescription">Rodomas Mapbox kurtas žemėlapis. Naviguok tempdamas du pirštus. Valdyk žemėlapio pritraukimą suimdamas/atitolindamas du pirštus.</string>
+    <string name="dingi_myLocationViewContentDescription">Vartotojo vietos vaizdas. Nurodo tavo poziciją žemėlapyje</string>
+    <string name="dingi_offline_error_region_definition_invalid">Pasirinktas OfflineRegionDefinition netalpa į rėžius:  %s</string>
+</resources>

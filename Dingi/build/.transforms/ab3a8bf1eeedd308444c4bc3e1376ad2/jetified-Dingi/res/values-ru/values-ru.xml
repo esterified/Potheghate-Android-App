@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dingi_attributionErrorNoBrowser">На устройстве нет веб-браузера, нельзя показать веб-страницу.</string>
+    <string name="dingi_attributionTelemetryMessage">Вы помогаете улучшать карты OpenStreetMap и Mapbox, предоставляя обезличенные данные об использовании.</string>
+    <string name="dingi_attributionTelemetryNegative">Не согласен</string>
+    <string name="dingi_attributionTelemetryNeutral">Дополнительная информация</string>
+    <string name="dingi_attributionTelemetryPositive">Согласен</string>
+    <string name="dingi_attributionTelemetryTitle">Сделать карты Mapbox лучше</string>
+    <string name="dingi_attributionsDialogTitle">Mapbox Maps SDK для Android</string>
+    <string name="dingi_attributionsIconContentDescription">Значок атрибутов. Активируйте, чтобы показать диалог.</string>
+    <string name="dingi_compassContentDescription">Компас. Активируйте, чтобы развернуть карту на север.</string>
+    <string name="dingi_mapActionDescription">Отображает карту, созданную при помощи Mapbox. Пролистывайте двумя пальцами. Меняйте масштаб сведением пальцев.</string>
+    <string name="dingi_myLocationViewContentDescription">Местоположение. Отображает вашу позицию на карте.</string>
+    <string name="dingi_offline_error_region_definition_invalid">Запрошенный OfflineRegionDefinition не входит в допустимые границы: %s</string>
+    <string name="dingi_telemetrySettings">Настройки телеметрии</string>
+</resources>

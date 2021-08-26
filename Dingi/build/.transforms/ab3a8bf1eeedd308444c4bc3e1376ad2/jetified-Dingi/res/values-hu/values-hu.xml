@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dingi_attributionTelemetryMessage">Segítesz az OpenStreetMap és Mapbox térképek jobbá tételében névtelen felhasználási adatok elküldésével.</string>
+    <string name="dingi_attributionTelemetryNegative">Nem értek egyet</string>
+    <string name="dingi_attributionTelemetryNeutral">Több infó</string>
+    <string name="dingi_attributionTelemetryPositive">Egyetértek</string>
+    <string name="dingi_attributionTelemetryTitle">Tedd jobbá a Mapbox térképeket</string>
+    <string name="dingi_attributionsDialogTitle">Mapbox Android SDK</string>
+    <string name="dingi_mapActionDescription">Egy Mapbox-szal készült térkép megjelenítése. Húzd két ujjadat a görgetéshez. Csippentsd össze a nagyításhoz.</string>
+    <string name="dingi_myLocationViewContentDescription">Hely nézet. Megmutatja, hol vagy a térképen.</string>
+    <string name="dingi_offline_error_region_definition_invalid">A megadott OfflineRegionDefinition nem fér bele a világ kereteibe: %s</string>
+</resources>

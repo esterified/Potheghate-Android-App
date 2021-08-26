@@ -1,0 +1,3 @@
+include ':Dingi'
+include ':app'
+rootProject.name = "PotheGhate"

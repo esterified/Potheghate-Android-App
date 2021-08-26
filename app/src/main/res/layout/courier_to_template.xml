@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_input"
+    android:backgroundTint="@color/card_background"
+    android:layout_marginTop="5dp"
+    android:paddingStart="5dp"
+    android:paddingEnd="5dp"
+    android:paddingBottom="5dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-8dp"
+
+        >
+
+        <TextView
+            android:id="@+id/fromCount"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="5dp"
+            android:background="@color/card_background"
+            android:backgroundTint="#6BEA0A45"
+            android:baselineAligned="false"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/fromRemove"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="start"
+            android:layout_marginStart="-3dp"
+            android:layout_marginTop="-3dp"
+            android:baselineAligned="false"
+            android:text=""
+            android:gravity="center"
+            android:background="@android:drawable/ic_delete"
+            android:foreground="?attr/selectableItemBackground"
+            />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Courier service:"
+            android:textAlignment="textStart"
+            android:textColor="@color/content_text_color"
+            android:textSize="16sp"
+            android:textStyle="bold"
+
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/background_input">
+
+            <Spinner
+
+                android:id="@+id/courierServiceSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Courier package:"
+            android:textAlignment="textStart"
+            android:textColor="@color/content_text_color"
+            android:textSize="16sp"
+            android:textStyle="bold"
+
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/background_input">
+
+            <Spinner
+
+                android:id="@+id/courierPackageSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Receiver details:"
+            android:textAlignment="textStart"
+            android:textColor="@color/content_text_color"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/toRDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/background_input"
+            android:hint="details"
+            android:padding="5dp"
+            android:textSize="14sp"
+            android:autofillHints=""
+            android:inputType="text"
+            android:importantForAutofill="no"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/courierToP"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_input"
+        android:backgroundTint="@color/card_background"
+        android:layout_marginTop="5dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:text="Condition:"
+                android:textColor="@color/content_text_color"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                >
+                <RadioGroup
+                    android:id="@+id/toGroup_c"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+
+                    android:gravity="start"
+                    android:orientation="horizontal">
+                    <RadioButton
+                        android:id="@+id/toGroup_1_c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="No"
+                        android:textSize="14sp"
+                        android:checked="true"
+                        />
+                    <RadioButton
+                        android:id="@+id/toGroup_2_c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:text="Yes"
+                        android:textSize="14sp" />
+
+
+                </RadioGroup>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/condYes"
+                    android:visibility="gone"
+                    >
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Amount: Tk."
+                        android:textAlignment="textStart"
+                        android:textColor="@color/content_text_color"
+                        android:textSize="14sp"
+                        android:layout_marginEnd="2dp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/condYesEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/background_input"
+                        android:hint="amount"
+                        android:text="3001"
+                        android:inputType="numberDecimal"
+                        android:padding="5dp"
+                        android:textSize="14sp"
+                        android:autofillHints=""
+                        android:importantForAutofill="no"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Quantity:"
+                android:textAlignment="textStart"
+                android:textColor="@color/content_text_color"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <EditText
+                    android:id="@+id/productQuantity"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:background="@drawable/background_input"
+                    android:text="1"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:minLines="1"
+                    android:padding="5dp"
+                    android:textSize="14sp"
+                    android:inputType="number"
+                    android:autofillHints=""
+                    android:importantForAutofill="no"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Product Weight:"
+                android:textAlignment="textStart"
+                android:textColor="@color/content_text_color"
+                android:textSize="16sp"
+                android:textStyle="bold"
+
+                />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/background_input">
+
+                <Spinner
+                    android:id="@+id/weightSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="Product Details:"
+                android:textAlignment="textStart"
+                android:textColor="@color/content_text_color"
+                android:textSize="16sp"
+                android:textStyle="bold"
+
+                />
+
+            <EditText
+
+                android:id="@+id/detailsPView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:autofillHints=""
+                android:background="@drawable/background_input"
+                android:gravity="top|start"
+                android:hint="Details"
+                android:lines="10"
+                android:maxLines="10"
+                android:minLines="4"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:inputType="textMultiLine"
+                android:importantForAutofill="no"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

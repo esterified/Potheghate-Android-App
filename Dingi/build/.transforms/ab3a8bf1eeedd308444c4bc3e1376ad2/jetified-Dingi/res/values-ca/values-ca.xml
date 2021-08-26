@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dingi_attributionTelemetryMessage">Estàs ajudant a millorar els mapes d’OpenStreetMap i de Mapbox aportant dades d’ús anònimes.</string>
+    <string name="dingi_attributionTelemetryNegative">Disconforme</string>
+    <string name="dingi_attributionTelemetryNeutral">Més informació</string>
+    <string name="dingi_attributionTelemetryPositive">D’acord</string>
+    <string name="dingi_attributionTelemetryTitle">Millora els mapes de Mapbox</string>
+    <string name="dingi_attributionsDialogTitle">Mapbox Android SDK</string>
+    <string name="dingi_attributionsIconContentDescription">Icona d’atribució. Activa per mostrar el diàleg de l’atribució.</string>
+    <string name="dingi_compassContentDescription">Brúixola del mapa. Activa per restablir la rotació del mapa al Nord.</string>
+    <string name="dingi_mapActionDescription">Mostrant un mapa creat amb Mapbox. Desplaça’t arrossegant amb dos dits. Fes zoom pessigant amb dos dits.</string>
+    <string name="dingi_myLocationViewContentDescription">Vista de posició. Mostra la teva posició al mapa.</string>
+    <string name="dingi_offline_error_region_definition_invalid">La OfflineRegionDefinition proporcionada no encaixa amb els límits del món: %s</string>
+</resources>

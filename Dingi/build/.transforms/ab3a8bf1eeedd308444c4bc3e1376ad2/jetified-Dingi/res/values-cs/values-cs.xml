@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dingi_attributionErrorNoBrowser">Na zařízení není nainstalován prohlížeč obsahu internetu, webovou stránku nelze zobrazit.</string>
+    <string name="dingi_attributionTelemetryMessage">Pomáhat udělat OpenStreetMap a Mapbox mapy lepšími poskytnutím anonymních dat o využití.</string>
+    <string name="dingi_attributionTelemetryNegative">Odmítnout</string>
+    <string name="dingi_attributionTelemetryNeutral">Více informací</string>
+    <string name="dingi_attributionTelemetryPositive">Souhlasit</string>
+    <string name="dingi_attributionTelemetryTitle">Udělat mapy Mapbox lepšími</string>
+    <string name="dingi_attributionsDialogTitle">Mapbox Maps SDK pro Android</string>
+    <string name="dingi_attributionsIconContentDescription">Atributy. Zobrazit nastavení atributů.</string>
+    <string name="dingi_compassContentDescription">Kompas. Nastavit natočení mapy k severu.</string>
+    <string name="dingi_mapActionDescription">Zobrazení mapy vytvořené s Mapbox. Posunout tažením dvěma prsty. Změnit velikost roztažením dvou prstů.</string>
+    <string name="dingi_myLocationViewContentDescription">Zobrazení polohy. Zobrazit umístění na mapě.</string>
+    <string name="dingi_offline_error_region_definition_invalid">Pokud OfflineRegionDefinition neodpovídá hranicím: %s</string>
+    <string name="dingi_telemetrySettings">Nastavení telemetrie</string>
+</resources>

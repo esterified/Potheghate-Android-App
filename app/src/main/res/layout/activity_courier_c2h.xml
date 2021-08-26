@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cordRootViewc2h"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".courierActivity_c2h"
+    android:background="@color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbarshop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/p_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:elevation="8dp"
+            android:minHeight="?attr/actionBarSize"
+            android:textAlignment="center"
+            android:theme="@style/actionBarTheme"
+            app:popupTheme="@style/Theme.PotheGhate"
+            app:titleTextColor="@color/white"
+            app:menu="@menu/courier_menu"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                >
+
+                <TextView
+                    android:id="@+id/toolbarTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Courier to Home"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    tools:showIn="@layout/activity_dashboard" />
+
+
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/NestedScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarSize="2dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <!-- Dummy item to prevent AutoCompleteTextView from receiving focus -->
+        <include layout="@layout/fragment_c2home"/>
+
+
+
+
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottomButtonPanel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:padding="0dp"
+        android:elevation="10dp"
+        android:fitsSystemWindows="true"
+        android:background="@color/p_red"
+        android:gravity="bottom"
+
+        >
+        <Button
+            android:id="@+id/home2Courier"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:elevation="0dp"
+            android:layout_margin="0dp"
+            android:text="Home to courier"
+
+            />
+        <Button
+            android:id="@+id/courier2Home"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:elevation="0dp"
+            android:text="Courier to home"
+            android:textColor="@color/p_red"
+            android:backgroundTint="@color/white"
+
+            />
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

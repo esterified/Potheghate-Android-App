@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "729279806836",
+    "firebase_url": "https://fir-58dab-default-rtdb.firebaseio.com",
+    "project_id": "fir-58dab",
+    "storage_bucket": "fir-58dab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729279806836:android:276a37d74a6ca21d700021",
+        "android_client_info": {
+          "package_name": "com.example.potheghate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729279806836-ulhd951j3eoaleuc70i01piibic1q1gs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0xCnOPtNZrmo5ZrU67b54kBYyhOdZMKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729279806836-ulhd951j3eoaleuc70i01piibic1q1gs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
